@@ -2,8 +2,6 @@
 
 # Practice 1
 
-https://meet.google.com/wwd-awwg-hnm 
-
 Create the first script « Add x to y »
 
 ## Synopsis
@@ -237,8 +235,6 @@ Develop a game. Either:
 
 ## Pendu (Run2)
 
-https://meet.google.com/bty-tfzh-kcg 
-
 1. The program ask the number of players (players work one by one)
 2. The program ask the name of players
 3. The program invite poeple to play
@@ -266,8 +262,6 @@ https://meet.google.com/bty-tfzh-kcg
 
 ## Motus (Run3)
 
-https://meet.google.com/qbq-vzrq-rzf
-
 0. The program choose a word randomly in a file
 1. Nb players + pseudo players + invite to play
 2. Display for "bonjour" > b_ _ _ _ _r
@@ -291,8 +285,6 @@ Tips: regular expression could be useful
 
 # Simon (Run4)
 
-https://meet.google.com/fmc-kqbv-vzf 
-
 1. Nb Users
 2. Computer display a letter betwwen Q S D or F (e.g Q)
 3. Computer clear the screen
@@ -310,8 +302,6 @@ https://meet.google.com/fmc-kqbv-vzf
 
 
 # Resolve expression (Run 5)
-
-https://meet.google.com/mjw-mkpt-npr 
 
 The program get an expression in input and resolve
 
