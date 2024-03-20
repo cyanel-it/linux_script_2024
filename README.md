@@ -29,6 +29,11 @@ Hello, 3 + 9 = 12
 
 « bc » command allow you to make a string a math expression
 
+## More info
+
+https://phoenixnap.com/kb/bash-math
+
+
 ## Goals are
 
 - Discover parameters
