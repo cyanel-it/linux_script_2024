@@ -67,8 +67,12 @@ PIANO                     |   1220.00
 
 ## Tips
 
-printf or echo has many ways to format string
+printf or echo has many ways to format string. You can create tabulation spaces to align number like in a bill, also add decimal
 
+Useful cmd:
+
+- printf
+- upper
 
 # Practice 3
 
