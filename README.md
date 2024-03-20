@@ -55,12 +55,15 @@ line_order.sh [name] [price]
 
 ```Shell
 ./line_order.sh Ukulele 9.90
+or
 ./line_order.sh Piano 1220
 ```
 
 ## Returns 
 
-UKULELE                   |      9.00
+UKULELE                   |      9.90
+
+or 
 
 PIANO                     |   1220.00
 
