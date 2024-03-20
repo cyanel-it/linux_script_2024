@@ -74,6 +74,10 @@ Useful cmd:
 - printf
 - upper
 
+### More info
+
+https://www.journaldufreenaute.fr/comment-utiliser-la-commande-printf-de-bash-sous-linux/
+
 # Practice 3
 
 Create a script that ask to the user to enter a product and its price and display the result
