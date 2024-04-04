@@ -1,8 +1,15 @@
 # linux_script_2024
 
-# Practice 1
+# Before to begin
 
-Create the first script « Add x to y »
+- Be sure you repect filename and result
+- Try a command in the terminal first to avoid side effects
+- Go step by step, try little pece of code first. As your program grow, complexity increase
+- Use samples to test your program
+
+# Practice - Parameter and math
+
+Create a script that takes two numbers as parameters and make an addition « Add x to y »
 
 ## Synopsis
 
@@ -14,23 +21,51 @@ Create the first script « Add x to y »
 
 ```Shell
 ./add.sh 3 9
+or
 bash add.sh 8 23
 ```
 
-## Returns 
+## Must return
 
+The result: 
 ```Shell
-Hello, 3 + 9 = 12
+$ ./add.sh 3 9
+$ 12
+$ ./add.sh 12 -3
+$ 9
 ```
 
 ## Tips
 
-« bc » command allow you to make a string a math expression
+### Parameters
+
+A script can takes input parameters. You can access to parameter in your script by using $ and a number:
+```Shell
+echo $0 //script file name
+echo $1 //parameter 1
+echo $2 //parameter 2
+...
+```
+
+10th parameter and more needs different syntax: ${14}
+
+
+« bc » command allow you to make a string a math expression. bc can take a value in input from another command. To do that, you can use | (pipe). The pipe connect to command:
+
+```Shell
+$ echo "2 + 2" | bc -l
+$ 4
+$ echo "2 * 2" | bc -l
+$ 4
+$ echo "2 / 2" | bc -l
+$ 1.000000
+```
+
+In these exemples, echo returns a string "2 + 2" and give it to bc thanks to the pipe |.
 
 ## More info
 
 https://phoenixnap.com/kb/bash-math
-
 
 ## Goals are
 
